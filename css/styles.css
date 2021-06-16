@@ -1,0 +1,90 @@
+h1 {
+    text-align: center;
+    width: auto;
+}
+
+#noteEnter {
+    text-align: center;
+}
+
+#formLabel {
+    margin: 5px;
+}
+
+#formNote {
+    margin: 5px;
+}
+
+#noteButton {
+    margin: 5px;
+}
+
+.notesGrid{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.note {
+    display: block;
+    width: 14%;
+    justify-content: space-around;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 4px;
+    position: relative;
+}
+
+.noteText {
+    text-align: center;
+}
+
+.selected {
+    display: block;
+    width: 14%;
+    justify-content: space-around;
+    cursor: pointer;
+    border: 2px solid green;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 2px;
+    position: relative;
+}
+
+button {
+    border-radius: 4px;
+}
+
+.delete {
+    background-color: white;
+    border: 2px solid red;
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+}
+
+.edit {
+    background-color: white;
+    border: 2px solid yellow;
+    bottom: 2px;
+    left: 2px;
+}
+
+.modal {
+    text-align: center;
+    margin: 4px;
+}
+
+.cancel {
+    background-color: white;
+    border: 2px solid red;
+    margin: 4px;
+}
+
+.save {
+    background-color: white;
+    border: 2px solid green;
+    margin: 4px;
+}
